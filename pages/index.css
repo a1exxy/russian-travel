@@ -1,0 +1,19 @@
+/* normalize */
+  @import url(../vendor/normalize.css);
+/* fonts */
+  /* Inter (source: https://rsms.me/inter/) */
+    @import url(../fonts/Inter_Web/inter.css);
+/* blocks */
+  @import url(../blocks/page/page.css);
+  /* header */
+
+  /* lead */
+  /* intro */
+  /* photo-grid */
+  /* places */
+  /* cover */
+    @import url(../blocks/cover/cover.css);
+    @import url(../blocks/cover/__background/cover__background.css);
+  /* footer */
+    @import url(../blocks/footer/footer.css);
+    @import url(../blocks/footer/__list/footer__list.css);

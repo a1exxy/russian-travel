@@ -1,9 +1,5 @@
 .cover__background {
-
-  /*width: 100%;*/
-  /*background-position: center;*/
-  background-size: cover;
-  /*height: 400px;*/
-  /*width: 100%;*/
-  background-image: url('../../../images/cover-trains.jpg');
+  position: relative;
+  width: 100%;
+  height: auto;
 }

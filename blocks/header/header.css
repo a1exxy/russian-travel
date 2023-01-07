@@ -1,0 +1,13 @@
+.header {
+  height: 52px;
+  margin: 28px 48px 56px;
+  display: grid;
+  grid-template-columns: auto 30px 30px;
+  grid-column-gap: 18px;
+}
+
+@media screen and (max-width: 767px){
+  .header {
+    margin: 16px 16px 48px 16px;
+  }
+}

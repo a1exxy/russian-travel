@@ -2,12 +2,15 @@
   font-size: 24px;
   line-height: 28px;
   font-weight: 400;
-  align-self: center;
+  align-self: end;
+  text-decoration: none;
+  padding-bottom: 3px;
 }
 
 @media screen and (max-width: 767px){
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;
+    padding-bottom: 7px;
   }
 }

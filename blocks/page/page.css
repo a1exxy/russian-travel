@@ -4,5 +4,10 @@
   background-color: #2A2C2F;
   color: #FFFFFF;
   font-family: Inter, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  font-feature-settings: "kern";
+  box-sizing: border-box;
 }
-/*  */

@@ -1,0 +1,3 @@
+.place__text > .place__paragraph:last-child {
+   padding-bottom: 0;
+}

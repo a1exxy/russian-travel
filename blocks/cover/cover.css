@@ -5,15 +5,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 0;
-  padding-top: 58%;
 }
 
 @media screen and (max-width: 1279px){
   .cover {
     margin-left: 0;
     margin-right: 0;
-    padding-top: 62%;
   }
 }
 @media screen and (max-width: 1023px) {

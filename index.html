@@ -39,7 +39,7 @@
     <li>Аэропортов <span class="intro__volume">241</span></li>
   </ul>
 </section>
-<section class="photo-grid"><!-- вернул секцию, теперь валидатор опять жалуется на отсутсвие заголовка в секции -->
+<section class="photo-grid" aria-label="Стена фотографий">
   <img class="photo-grid__item" src="images/photo-grid-train.jpg" alt="Вид из купе поезда">
   <img class="photo-grid__item" src="images/photo-grid-atharva-tulsi.jpg" alt="Горный массив Уллу-Тау">
   <img class="photo-grid__item" src="images/photo-grid-tuman.jpg" alt="Иллюстрация Туман">
@@ -53,16 +53,15 @@
   <img class="photo-grid__item" src="images/photo-grid-baikal-2.jpg" alt="Обрыв на байкале">
   <img class="photo-grid__item" src="images/photo-grid-ergaki.jpg" alt="Горный хребет Ергаки">
 </section>
-<section class="places">
+<section class="places" aria-label="Места">
   <article class="place">
-    <!--    -->
     <h2 class="place__title">Куршская коса</h2>
     <div class="place__website">
       <p class="place__url-heading">URL</p>
       <a class="link place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
     </div>
     <img class="place__image" src="images/place-kosa.jpg" alt="Фотография прибрежной полосы">
-    <div class="place__text">
+    <div>
       <p class="place__paragraph">
         Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного
         Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой.
@@ -89,7 +88,7 @@
       </a>
     </div>
     <img class="place__image" src="images/place-kolsky.jpg" alt="Фотография заснеженных гор">
-    <div class="place__text">
+    <div>
       <p class="place__paragraph">
         Почти весь полуостров находится за Полярным кругом.
         Саамская тундра, от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.
@@ -116,7 +115,7 @@
       </a>
     </div>
     <img class="place__image" src="images/place-altai.jpg" alt="Фотография робочего места с видом на лес">
-    <div class="place__text">
+    <div>
       <p class="place__paragraph">
         Алтай — одно из красивейших мест в России. В первую очередь из-за гор: если ехать вдоль хребта,
         вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы откроете в автомобиле окна,
@@ -143,7 +142,7 @@
       </a>
     </div>
     <img class="place__image" src="images/place-winter-baikal.jpg" alt="Фотография ледяной поверхности озера">
-    <div class="place__text">
+    <div>
       <p class="place__paragraph">
         Всем известен Байкал как крупнейшее озеро в мире.
         Многие также знают, что это самый большой источник пресной воды и
@@ -164,7 +163,7 @@
       <a class="link place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
     </div>
     <img class="place__image" src="images/place-karelia.jpg" alt="Фотография реки">
-    <div class="place__text">
+    <div>
       <p class="place__paragraph">
         Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница
         не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных
